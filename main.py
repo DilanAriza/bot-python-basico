@@ -1,10 +1,12 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time, json
+import py2exe
 
 tiempoEspera = 10
 
-driver = webdriver.Firefox(executable_path="/mnt/c/firefox_webdriver/geckodriver.exe");
+print("Buscando el driver de firefox");
+driver = webdriver.Firefox(executable_path="./geckodriver.exe");
 
 with open("main.json") as json_file: 
     data = json.load(json_file)

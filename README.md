@@ -21,9 +21,37 @@ Se instala la libreria de [Selenium](https://pypi.org/project/selenium/)
 pip install selenium
 ``` 
 
+o
+
+```
+pip3 install selenium
+``` 
+
+
+Se instala la libreria de [Py2exe](https://pypi.org/project/py2exe/)
+```
+pip install py2exe
+``` 
+
+o
+```
+pip3 install py2exe
+``` 
+
+
+## Correr el Bot
+
 Luego ejecutamos el código con 
 ```
 Python3 main.py
+```
+
+
+## Compilar el Bot
+
+Luego compilamos el código con 
+```
+setup.py py2exe
 ```
 
 y esperamos a que el programa abra el navegador y rellene los datos del formulario.
